@@ -1,0 +1,250 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#topo {
+    background: url(imagens/desktop/image-hero.jpg) no-repeat left top;
+    height: 650px;
+    background-size: 1349px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1050px;
+}
+
+#logo {
+    font-size: 2.2em;
+    color: white;
+    padding: 50px 0 0 0;
+    font-weight: bold;
+}
+
+#menu {
+    float: right;
+    margin: -30px 0 0 0;
+    font-size: 0.9em;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-weight: bold;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    margin: 0 15px;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+#msg {
+    font-size: 4em;
+    border: 2px solid white;
+    font-weight: 0;
+    clear: both;
+    width: 540px;
+    margin-top: 90px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 70px;
+    height: 220px;
+    padding: 25px 20px 25px 30px;
+}
+
+/* FIM TOPO*/
+
+
+
+#img-um {
+    width: 660px;
+    position: absolute;
+    z-index: 10;
+    top: 730px;
+    left: 150px;
+}
+
+#img-dois {
+    background: white;
+    position: absolute;
+    top: 900px;
+    left: 670px;
+    z-index: 20;
+    width: 530px;
+    height: 280px;
+    padding: 40px 0 0 70px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    line-height: 40px;    
+}
+
+#primario p {
+    color: rgb(148, 148, 148);
+    font-weight: bold;
+}
+
+#primario img {
+    width: 100%;
+}
+
+
+/* FIM PRIMARIO*/
+
+#conteudo {
+    margin-top: 700px;
+    margin-left: 150px;
+    width: 1051px;
+}
+
+#conteudo h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#botao {
+    float: right;
+    margin-top: -44px;
+    padding: 0;
+    border: 2px solid rgb(148, 148, 148);
+}
+
+#botao a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    line-height: 40px;
+}
+
+#botao a:hover {
+    background-color: black;
+    color: white;
+}
+
+#primeiro, #segundo, #terceiro, #quarto {
+    margin-top: 50px;
+    float: left;
+    
+}
+
+#conteudo p {
+    margin-top: -120px;
+    margin-left: 30px;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#conteudo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 35px 40px 0;
+}
+
+#conteudo ul li {
+    width: 225px;
+    height: 400px;
+    
+}
+
+#conteudo img {
+    width: 100%;
+}
+
+#primeiro a, #segundo a, #terceiro a, #quarto a {
+    text-decoration: none;
+    color: white;
+}
+
+#primeiro a:hover, #segundo a:hover, #terceiro a:hover, #quarto a:hover {
+    opacity: 0.5;
+    color: black;
+}
+
+.clear {
+    clear: left;
+}
+/*FIM CONTEUDO*/
+
+#rodape {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+#lg {
+    font-size: 2.2em;
+    color: white;
+    padding: 30px 0 0 150px;
+    font-weight: bold;
+}
+
+#menu-dois {
+    float: left;
+    font-size: 1em;
+    margin: 40px 0 40px 140px;
+}
+
+#menu-dois ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-weight: bold;
+}
+
+#menu-dois ul li {
+    display: block;
+    float: left;
+    margin: 0 15px;
+}
+
+#menu-dois ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-dois ul li a:hover, #sociais ul li a:hover  {
+    border-bottom: 2px solid white;
+}
+
+#sociais {
+    margin: 0;
+    padding: 0;
+}
+
+#sociais ul {
+    float: right;
+    list-style: none;
+    margin-top: -30px;
+    margin-right: 150px;
+}
+
+#sociais ul li {
+    width: 30px;
+    display: block;
+    float: right;
+    margin: 0 10px;
+}
+
+#direitos {
+    float: right;
+    margin: 15px 150px;
+    color: rgb(148, 148, 148);
+}
